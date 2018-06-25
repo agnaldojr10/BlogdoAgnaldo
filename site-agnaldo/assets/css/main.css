@@ -93,7 +93,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #a00000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -192,10 +192,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #8b0000, #FFFFFF);
+				background-image: -webkit-linear-gradient(to right, #8b0000, #FFFFFF);
+				background-image: -ms-linear-gradient(to right, #8b0000, #FFFFFF);
+				background-image: linear-gradient(to left, #8b0000, #FFFFFF);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1910,7 +1910,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #a00000 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2351,7 +2351,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #a00000;
 		}
 
 		select:focus::-ms-value {
@@ -2434,7 +2434,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #8b0000;
 			content: '\f00c';
 		}
 
@@ -2499,7 +2499,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #8b0000;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2510,27 +2510,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #FF6347;
+					color: #8b0000;
 				}
 
 /* Image */
@@ -3350,7 +3350,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #484749;
+		background-color: #8b0000;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3747,7 +3747,7 @@ input, select, textarea {
 			#sidebar nav a:after {
 				background-image: -moz-linear-gradient(to right, #FA8072, #FA8072);
 				background-image: -webkit-linear-gradient(to right, #FA8072, #FA8072);
-				background-image: -ms-linear-gradient(to right, #FA8072, #FA8072);
+				background-image: -ms-linear-gradient(to right #FA8072, #FA8072);
 				background-image: linear-gradient(to right, #FA8072, #FA8072);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
@@ -3757,7 +3757,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255);
 			}
 
 			#sidebar nav a.active {
@@ -3850,11 +3850,11 @@ input, select, textarea {
 
 		}
 
-/* Intro */
+/* IMAGEM INICIO */
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/casal.jpg");
+		background-image: url("images/vermelho.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
